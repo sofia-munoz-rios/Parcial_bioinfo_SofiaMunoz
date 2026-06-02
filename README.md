@@ -20,5 +20,4 @@ geom_line()
 ```
 # Punto 1: Descarga de Referencias y Limpieza 
 
-```wget https://raw.githubusercontent.com/paula-torres/Bioinfo_UR/refs/heads/main/files/muestra_paciente.fasta
-```
+```wget https://raw.githubusercontent.com/paula-torres/Bioinfo_UR/refs/heads/main/files/muestra_paciente.fasta```
