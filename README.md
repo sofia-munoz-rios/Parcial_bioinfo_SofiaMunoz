@@ -73,7 +73,7 @@ Se observa que laSe observa que la mejor coinciencia es _Taenia solium_, con una
 
 Concatenación de las secuencias
 Se cargó:
-``` module load muscle/3.8.31  ``
+``` module load muscle/3.8.31``` 
 Se concatenaron las secuencias:
 ``` cat concat2.fasta muestra_paciente.fasta > alineamiento.fasta```
 Y se realizó el alineamiento con muscle:
@@ -82,7 +82,7 @@ Y se realizó el alineamiento con muscle:
 ``` cp FASconCAT-G_v1.05.1.pl Sofia_mr/Parcial/```
 
 Cargué iqtree:
-```module load iqtree/1.6.12``` 
+``` module load iqtree/1.6.12``` 
 
 
 
