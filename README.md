@@ -31,12 +31,7 @@ Se concatenaron las secuencias de la siguiente forma:
 Y se modificó el nombre de las secuencias con el siguiente código:
 
 ```sed -E '/^>/s/^>([^ ]+).*([A-Z][a-z]+) ([a-z]+).*/>\1_\2_\3/' concat.fasta > concat2.fasta```
+Con este código se toma las líneas que empiecen con “>”, luego se agrupa en el primer paréntesis el código inicial, con el “.*” se le dice que vaya hasta la siguiente indicación, luego en el siguiente paréntesis se agrupa el nombre del género al ser mayúsculas y minúsculas, luego se toma en otro grupo el nombre del género y por último se selecciona hasta el final de la línea. Al final se toman los tres grupos, quedando de ese modo: >código_género_especie
 
-Las secuencias deben estar en la carpeta parcial del escritorio con los nombres:
-sequence.fasta
-sequence(1).fasta
-Y así hasta…
-sequence(10).fasta
-en total debe de haber 11 secuencias 
 
 
