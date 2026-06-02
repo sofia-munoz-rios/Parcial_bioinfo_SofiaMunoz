@@ -82,7 +82,7 @@ Y se realizó el alineamiento con muscle:
 ``` cp FASconCAT-G_v1.05.1.pl Sofia_mr/Parcial/```
 
 Cargué iqtree:
-``` module load iqtree/1.6.12``` 
+``` module load iqtree/1.6.12 ``` 
 
 
 
