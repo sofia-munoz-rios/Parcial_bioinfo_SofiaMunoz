@@ -73,9 +73,9 @@ Se observa que laSe observa que la mejor coinciencia es _Taenia solium_, con una
 
 Concatenación de las secuencias
 Se cargó:
-``` module load muscle/3.8.31  ```
+``` module load muscle/3.8.31  ``
 Se concatenaron las secuencias:
-``` cat concat2.fasta muestra_paciente.fasta > alineamiento.fasta ```
+``` cat concat2.fasta muestra_paciente.fasta > alineamiento.fasta```
 Y se realizó el alineamiento con muscle:
 ``` muscle -in alineamiento.fasta -out muscle.fasta```
 ## Para el árbol de máxima verosimilitud copié el FASconCAT a la carpeta del parcial:
